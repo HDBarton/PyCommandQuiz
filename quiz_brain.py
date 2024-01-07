@@ -22,3 +22,6 @@ class QuizBrain:
         print(f"The correct answer was: {correct_answer}")
         print(f"Your current score is {self.score}/{self.question_number}")
         print("\n")
+        
+#TODO: Keep track of which questions were answered incorrectly.
+#      Display these questions with their correct answers in a table format for the user at the end of the quiz.
